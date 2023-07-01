@@ -34,7 +34,8 @@ CREATE TABLE `audio` (
   `upload_date` datetime DEFAULT NULL,
   `user_id` int(11) DEFAULT NULL,
   `cover_image` varchar(255) DEFAULT NULL,
-  `audio_url` varchar(255) NOT NULL
+  `audio_url` varchar(255) NOT NULL,
+  `like_count` varchar(500)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
